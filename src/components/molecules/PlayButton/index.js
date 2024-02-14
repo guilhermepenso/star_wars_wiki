@@ -1,12 +1,12 @@
 import React from 'react'
 import { Ionicons } from '@expo/vector-icons'
 import { Text } from '~/components/atoms'
-import { PlayButtonContainer } from './styles'
+import { PlayContainer } from './styles'
 import { theme } from '~/styles/theme'
 
 export const PlayButton = ({ onPress }) => {
   return (
-    <PlayButtonContainer onPress={onPress}>
+    <PlayContainer onPress={onPress}>
       <Ionicons
         name="play"
         size={theme.metrics.px(12)}
@@ -15,6 +15,6 @@ export const PlayButton = ({ onPress }) => {
       <Text fontFamily="bold" size={14} color="black">
         Assistir
       </Text>
-    </PlayButtonContainer>
+    </PlayContainer>
   )
 }
