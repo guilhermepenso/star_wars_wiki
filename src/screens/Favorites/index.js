@@ -2,10 +2,10 @@ import React from 'react'
 import { Text } from 'react-native'
 import { ScreenScrollContainer } from '~/components'
 
-export const SearchScreen = () => {
+export const FavoritesScreen = () => {
     return (
         <ScreenScrollContainer>
-            <Text>Pesquisar</Text>
+            <Text>Favoritos</Text>
         </ScreenScrollContainer>
     )
 }
