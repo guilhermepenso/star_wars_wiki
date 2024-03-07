@@ -4,24 +4,34 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { Home, SplashScreen, Detail, SearchScreen, FavoritesScreen } from '../screens'
 import { theme } from '~/styles/theme';
+import Ionicons from 'react-native-vector-icons/Ionicons';
+
+const routeIcons = {
+    "Home": "home-outline",
+    "Search": "search-outline",
+    "Favorites": "heart-outline",
+}
 
 const BottomRoute = () => {
     const Tab = createBottomTabNavigator();
 
     return (
         <Tab.Navigator 
-            screenOptions={{
-                headerShown: false, 
-                tabBarActiveTintColor: theme.colors.red,
-                tabBarInactiveTintColor: theme.colors.white,         
-            }}
-            barStyle={{
-                backgroundColor: theme.colors.black,
-            }}
+        screenOptions={({ route }) => ({
+            tabBarIcon: ({ focused, color, size }) => {
+                return <Ionicons name={routeIcons[route.name]} size={size} color={color}/>
+            },
+            headerShown: false,
+            tabBarActiveTintColor: theme.colors.red,
+            tabBarInactiveTintColor: theme.colors.white,
+            tabBarStyle: {
+                backgroundColor: theme.colors.black
+            }
+          })}          
             >
             <Tab.Screen name="Home" component={Home} />
-            <Tab.Screen name="Search" component={SearchScreen} />
-            <Tab.Screen name="Favorites" component={FavoritesScreen} />
+            <Tab.Screen options={{ tabBarLabel: 'Pesquisar'}} name="Search" component={SearchScreen} />
+            <Tab.Screen options={{ tabBarLabel: 'Favoritos'}} name="Favorites" component={FavoritesScreen} />
         </Tab.Navigator>
     )
 }
