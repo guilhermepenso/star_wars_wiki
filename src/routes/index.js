@@ -3,32 +3,13 @@ import { createBottomTabNavigator } from '@react-navigation/bottom-tabs'
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { Home, SplashScreen, Detail, SearchScreen, FavoritesScreen } from '../screens'
-import { theme } from '~/styles/theme';
-import Ionicons from 'react-native-vector-icons/Ionicons';
-
-const routeIcons = {
-    "Home": "home-outline",
-    "Search": "search-outline",
-    "Favorites": "heart-outline",
-}
+import { BottomBar } from '~/components/organisms';
 
 const BottomRoute = () => {
     const Tab = createBottomTabNavigator();
 
     return (
-        <Tab.Navigator 
-        screenOptions={({ route }) => ({
-            tabBarIcon: ({ focused, color, size }) => {
-                return <Ionicons name={routeIcons[route.name]} size={size} color={color}/>
-            },
-            headerShown: false,
-            tabBarActiveTintColor: theme.colors.red,
-            tabBarInactiveTintColor: theme.colors.white,
-            tabBarStyle: {
-                backgroundColor: theme.colors.black
-            }
-          })}          
-            >
+        <Tab.Navigator screenOptions={{headerShown: false}} tabBar={props => <BottomBar {...props} />}>
             <Tab.Screen name="Home" component={Home} />
             <Tab.Screen options={{ tabBarLabel: 'Pesquisar'}} name="Search" component={SearchScreen} />
             <Tab.Screen options={{ tabBarLabel: 'Favoritos'}} name="Favorites" component={FavoritesScreen} />
