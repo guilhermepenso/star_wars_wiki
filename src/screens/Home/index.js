@@ -5,7 +5,7 @@ const FAKE_DATA_CHARACTERS = [
   {
     id: 0,
     image_url:
-      'https://s3-alpha-sig.figma.com/img/db70/e6a2/22a05eca5f16406e5f74ecaab09f6151?Expires=1710720000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=SJglljSEYxiwN6Y3YOeFAPYbgms9EslTmLENshiS2-GpLpCfRecqe9e34UyiEA1VaA-XcDYX3v~ZZ2Jf~np2-2Gpew9RiAJ4xgr06ZkbC87~c~l-Uh-os~BrfXttT4PLXFi-PCBJpaRmhjSIQObydSIbnMgPgTl80HJZUu9PUpqtR0GOr~jh7EKWbKqjtJVWWQTzmoBSmQiU7Jn1hlMWZneuhPIozkGMKA~5p-NuJFRHci5yt804KrUnx8mvNAFXqoiQRkcEt1aBBa2AG~0S3qwFw7Ci~8nnPZ8EykJtz4uarzsuilUAuPtwYWn7xWYmj2sauh2R~M1O9-POdYA2~w__',
+      'https://s3-alpha-sig.figma.com/img/db70/e6a2/22a05eca5f16406e5f74ecaab09f6151?Expires=1713139200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=M8rd8~yHSnS96hOg4lmzevSXSszSLBBtopAkSUzlK9NVvHvFC6ffQblKmTIaOX5sJuVGWep-RAaVMuKtPbN4nISL8swxZYGrVZc~9VZjhh2ES0meLGt62-T~RhY3uhUBU2P2RgWy3LrgyQQ-7Or8f-yE2UK0aUCue~5GCbKubOzAdmeb0f4iJRUUAXY8WAroSI3wSRm2XVb4RRk2FYPbOy5kx2jlA2PqWiA82qYyy2ie2~pT2BJnxTHfCueq1ocBrMbhUagpNQjKkmIxT6iETS~R9qHB7h5zXKuLBvycf8oWIPMx30uPdpo6TNmzSx8~MAgc0AVHBdFAUz2l01jNmQ__',
       title: 'Darth Vader',
       type: 'Personagem',
       subtitle: 'Anakin Skywalker',
@@ -14,7 +14,7 @@ const FAKE_DATA_CHARACTERS = [
   {
     id: 1,
     image_url:
-      'https://s3-alpha-sig.figma.com/img/c19b/db6c/3081fcdfb400dc41d0f9f73157f3a01d?Expires=1710720000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Mq-fmDk3lfX700yg5zFi~xZJ8xEnV7OvqCFTFQJ6BTBLY0iRpos7czOmQBr90D8Qzq6bnb-xEZtr5ZrSygFwNTa3y~4naVyRfgVi2jgGhSAijgfHZdKn94i9he72CkA83SPIsksL0qn4hkOnVNqBx~~coW3NIPpjI2dp9zv8MKnpasxb-RRVqGQ13HIz8ppQldU4X6Ocyt~VnALF4xeooireRE4tjK49Hy~rHGUg16KjzvHubu2BZ3S5FFwdZhMdepfrtxDCZ8e3kw564sikK7l~pniKAICiUJ43Ij~JA5BX1kAwGCd2V3gwN-z6pWua1hlZ1ZAdvdT8ONb93sAS5g__',
+      'https://s3-alpha-sig.figma.com/img/c19b/db6c/3081fcdfb400dc41d0f9f73157f3a01d?Expires=1713139200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=U84xI3OaR68JeveUf8oImJqAE1m0exfA2iCbbpNMZm6xJbI7A91MPWf~XZ6Lvz0Barlk-lJQNoaZhAumcFXdpDz5btHVq8U8-PL8Do6dZj1BmP~gjHImjdm~lNtxnsKTc5x4GX2g151U5FDc0XpLgYmOVKLXhyeiI7QMEkKzcKGs1q0ilUE99~-C2qx5veEsMl~8Kb8oMJ8y87c0wPJ9B-rcGftuvDantgBBOwGMHsUpQXTmcK2vnJTwt9eGEw~rvhAO4bxoT31~9cyjve1NkLl49BCsh1UMg9ZVT5XMtCQxqAkgUV9q8huLT0M1nE5DgFfqw-4r99qw1TrG~QEw-w__',
       title: 'Han Solo',
       type: 'Personagem',
       subtitle: 'Mercenário',
@@ -23,7 +23,7 @@ const FAKE_DATA_CHARACTERS = [
   {
     id: 2,
     image_url:
-      'https://s3-alpha-sig.figma.com/img/8cd3/bcda/2c4d9bfbd0d1c2074236744863054e57?Expires=1710720000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=gk4QvwBeVo~B6p5oy4PVYbyhg~gV815-qIJsvpmgERb8WD8iNSQd4r5tIfjp2NYDWE1Lo9HxLO5LoPMIAMPVCTMHK4yvKHU8d5ZltH8mp~QYk08PoU9bnon6fnLSGHTT6kVn-Z0utw7cSzD6PMqRoLtgZD5SqAFzB24mKfzMoBICXk5PJtQHINY6-BSv03mSny~H8R8vI9VspbE-voWgrLZk0sieD6P5axtSrge0pVx0QVateEywwooIde90Fla7bpXqHi3kM281dEyIQB1CAK1YEtZY2x7Z9GKUkyoTtlK5frm4ZL-PuasqaiJiK5e-DuFRbTGiDdJ8ma4Jmz6HMw__',
+      'https://s3-alpha-sig.figma.com/img/8cd3/bcda/2c4d9bfbd0d1c2074236744863054e57?Expires=1713139200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=WyDT0sfM9eWXW~kRwjXFDLPhxk4d06XBtCVGK9CxeA3UtpkG2fkajTyVeNUW7boSp2citAJaAUbzqOX3G50jAkA7Jup5uNfcuOawoKD6PedmMNRypQ512Nvmz2XOrlc6VauX0SrywD6AApQ1vR~oJImZH0hDaUJM00oLPVbOQOF2qmmU0r6YCzNeXC1fl-qYYyqmYxt-b5BFO60~yeQrjk-ciLzpOLixWQk6Py0MjOd~xIyAaNW2F2LOEhkefEnoVbxa5GOyVsOVvqc4vXFbdqkuA4UvLtFIraOJb1KuxDfMzOx3U6hc7IC~jKawR0fvymCxl6g3NITUPWzz8RAVgw__',
       title: 'Leia Organa',
       type: 'Personagem',
       subtitle: 'Leia Amidala Skywalker',
@@ -32,7 +32,7 @@ const FAKE_DATA_CHARACTERS = [
   {
     id: 3,
     image_url:
-      'https://s3-alpha-sig.figma.com/img/215f/cbd6/158eedf6ba4d3ad09398f3857c073dc5?Expires=1710720000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=I6zSoDIvYjvSHPrN4eWaXvCivHasbnGf6RkI8ccoU4HJq0bujNCudfuQdPx9NzwxJ-jpoWrxVM-yxxZt3ZhiZVRewwrKfWoddhCi2c9tssyDA-P6o4NmE-54Vt9oZqYdkiwZaqll-AEiS-T8EfgHL72uZ7eH6Hk6IlhjodQ4PsDc01oifYLtZN8Ut9JPcs4X8C8QDP7GRIm2AjTmIwpK-drnVzk96y7-NMQFWU1Oiypy2842fDlqnetEQUsZjt~3OxfvVd-rN7uW7-PgRWCMWEdJ2LuPq0OOO6KT5BPV~x7k8jo41TW6kXMxTCYJKne78Vv2oLF5LIRy38XFY71ISA__',
+      'https://s3-alpha-sig.figma.com/img/215f/cbd6/158eedf6ba4d3ad09398f3857c073dc5?Expires=1713139200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=ju2WrLdO~UQqg0xTpKqLJpt3QDFKaOwSqw4OGi5zFsZXo2IV0JDXfHUTkbY7L1awdWk3W4FuHaUYVWYEaQQ2jNPFwOyXxpKAzQkTGjWPLksN-~dA6v4Y-vGL319r-855q5iZBQqsYVS5cw-1ocQzp2haYifr2EjkO3IZoMIiswdQEMLDeC4TFj60kJAfqOXn1Ay8S712urcClwIm9yo9xa6xLqd67w-96kKRVBy-UokINvMgshF0myV8Gq44HNn~K5xCJPSX4bdoMkjOZaVk2MXXPZkNmu66OIxdvog5wl9wi5hpk3J8ePWpfi3JPJXJyGcIlxL3DXvQC32TsfFRuA__',
       title: 'Luke Skywalker',
       type: 'Personagem',
       subtitle: 'Mestre Jedi',
@@ -44,22 +44,22 @@ const FAKE_DATA_MOVIES = [
   {
     id: 0,
     image_url:
-      'https://s3-alpha-sig.figma.com/img/492c/54b3/3c4d0037f0f063e412959b3ebfaf8a46?Expires=1710720000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=bfG7aXDUohlnjAhoEO8U3S9RkWY~lWxsMMVBpQlm0aHOwIlUo~IC~njiXtU3OMlknZkiUdSnmFDhpJ32xc~PulA9BDmyH5IYisepkYf0TLm8OAQ1b55ZUX85AC2n1ouutHZieiIUjqy-bR9wuEnGKoWu4rAGf8F9KDMmFnfu8njB6sQvqLXBWjmk41RzeUAELUoJENZuonZGy7oNIm2qxoLGt0U5pCrgsGkiWjJ4uqoKc7d3KNjVp1gpivi9KNzLR939E1xg463MwiIuaulO0a5h7xFZ77zw-C2tCf0xVqQcjlvb5mzTFdyOTH0Tsn8kIoXjxXMnLHvFqzEyvvnYgg__',
+      'https://s3-alpha-sig.figma.com/img/492c/54b3/3c4d0037f0f063e412959b3ebfaf8a46?Expires=1713139200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=dn2y7cV6JWcTfY9goHIyxoSkSe33isC-hnTzDbFp-1pOQVp4yetOwlvf6n9S0uzY91bhyZFer0OIsLc0JL4OoL2CPPyTS6U3dqtOtJhsC~u679uVeOyd8qAz7yFTdN6FBWrxMW8ulzwNr5kFSrzETnmaun0MUjfJIgvzYk8kHPJXJ4PJoJ2RJrfn1NZ57ZspQTOHhcZ-WOiAMj3IHXJhCZZ9WciyEwD7irOoFfZ7Lfs4KOE05M9K-YgckkOKkJLRb58QP5Vt~591OsVQOPjF-FNBJJ~ALm-3ZiJgmqRmLuCNGKTn8NJDo1zQwzKO5fjKDZw4Yc7n1WBwrMCOeLromw__',
   },
   {
     id: 1,
     image_url:
-      'https://s3-alpha-sig.figma.com/img/e641/bac1/3251fbc354b808f30c4276e509471aaf?Expires=1710720000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=ohBqRB-ARDOVizjhFpgpf-rQF61gaYC6xbr72fNq-C~Xu8PMgREFp9P0LKnBlDxVlwBID099kNkgGzLKvPLaOvodZTiMk0T2xHlPlvWcKvfLj9-sMrqoKmIGuvmnFoSxByTlHtmQKeeilhRhI7xeSYimjmXM~pHFw301Ao3zEChh96zsVQbkC-TwbFJQnC0w1VslucD0bEPTGXREaI9SMt1u6CN5eRR-s7GrsLexLdkjPeP0z~NuTuPnU7iT0i-Ggpljn9lIrn8pXdsSdmFap-z6S2OPcvx1uz2hB6gZsOAkqQzsNymoXHVeubPkEtpSq-BrKH13p93MiPatkuqT1w__',
+      'https://s3-alpha-sig.figma.com/img/e641/bac1/3251fbc354b808f30c4276e509471aaf?Expires=1713139200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=n8dcO8IGVotkdOKJc1NgBWGrDMX1QmpSjjcnCxYMYJbBK-Z~fq3h-P3G-BJ2nPaZ4yNrCtmasvyrbfzGCNHQqGb1SnUuM6nLQGOpKp~FL1RxelJzJ12I02sMxOFYvxtJyq3Zin9J4QHKJYu-OFQrBgNUIEW~auSwXADxLfyBvn05k~RK-46X-TB7OOU3xI5OsslBHXdLeavjX8asqO2nECNhNqzsxfFsj19UKvGGW6ULveNffnhkxb4pw7afLHTJVoLOD2m3fK8s~4Od8VJw9ulS~lK6ur3PgNUH-RTtStpsc8mRzo5lW~WvCm4f1WjL7DJsyNGWEccyxNDv3a3G8w__',
   },
   {
     id: 2,
     image_url:
-      'https://s3-alpha-sig.figma.com/img/0902/25ef/93807e3e51ae991b2b44329c7b032a82?Expires=1710720000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=gr0JiXxpBQFYvHE7xOh~kAPvUfTsGXHkvAOnD89yvL1VzxY7RNn~La0vqxt-C3C4AGbu-XX46Vrm1MxOO4WgngaUXXtsCH7uo1l18nvOE6Cmww1BVVQrTGWuyLBddewZFLaOjXe8eDWHZMMtG5F8OA9lQd67cDK7dGYmIcyxknjClSo~SQMaEitDaegkaNQyMfSubWAUo8T~L1Pnt6YvjkgOWROQEydtvyFdzOpfTXVtfTCGAw8Uimu4GKqc1TQZHKUBD5KUaeF0SireL5rEfHAkK6xn-Xe7gSj7DqjjnliWjFa6ZIFF7x4wG0mEUeZyqCCCn4IP-08xaF1A3xcejA__',
+      'https://s3-alpha-sig.figma.com/img/0902/25ef/93807e3e51ae991b2b44329c7b032a82?Expires=1713139200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=ejuDuKZlZNFAAZlgEXIh~JNZoRTdVGDBl5SbxqR8HUVamSC943i28xhCSKg5MIPKlUKboodFTlj16gENR~OqGGBNq5-Fis6ihIk-pQyAODx3V9li1B3yvcK0hUspxRTT96AFhS4kT-FYQckd4OBYBAPUtIxXBAA-Dk-uRvadWC0Qp9eONEZVLc6QOt4l5IuCOSD2wwx3oAf3lUbQCUviCh1oOfF8BaY6c3cXs-WWOvDIJ9aBPI2s0SlpGktzPHlshlAP6ALT7SK5TEJFXQ0TuCpozoSTnhRmIaM1~0HPvqOdradeMzoqBPDCVlx0fn01fVqik0jr3z3sT3PDQRYcJQ__',
   },
   {
     id: 3,
     image_url:
-      'https://s3-alpha-sig.figma.com/img/f44b/43d5/572bffb0dfa5a7790e316e4b004bc736?Expires=1710720000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=MkfZCdac1gmsyJsNZk4H2kx3dPm-KZYNKoYJ35-i7kGotXgBiUAOtVrOtBUV59r2h0oPyXy5yo9LOkMxWgPhIn56hDhIYT-q6gT5Ciln52ekWYwsE2mC-I~mORUXSO19bZeSX-cfAUw3qMMBGlQQ5RLHt6kMwv9JL4bPUnCGkZHS2UhFdauBlq3zK1ABNz8fdN8b5T7JybgEmCyFfwGLSDq-iapyX9OJkaN2s9-nJ3PRrzd9OZm6rMyk6M0rgCzhdrUws5aM-hLEiU9BNRQXHa-JTOCbJIm6jfyHbSEMj1A4Lgvy2hicWfKkSvVd6BpJvLHQen9-ZZdWjdS4naRu7g__',
+      'https://s3-alpha-sig.figma.com/img/f44b/43d5/572bffb0dfa5a7790e316e4b004bc736?Expires=1713139200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=HRlJr-IQGsBVZ-mUyDE4wPs6DuCRkoTXEKK0VdAq6rUKeiZZQePy0gX8JmWgjKlt2aqsrdg3p0NrS2S~wwzlCPdUmpFH2YyK~hzpI5vLs4CV96zKvSfQRChKobhFVMwX3BQr~55IIIB-EN23lbAVGLxCd5uqAHGH8ecHkxxXdQ-9Qec80~loz1tpEtF1qjNhVWQK090g-iohS3BdmQvCqkrIcaY37f5kq2zfah~bSnEZnjOzOyjui901K6GqOdofBgRGwmeWjfh5yISQysjuWkU7KHFTo9nQsskhF4xYLjFiBmmFQwEDu~Ciil9GcDivn6r6EswHxxaDkh9QtyS9-A__',
   },
 ]
 
@@ -70,7 +70,7 @@ export const Home = () => {
         title: 'Episódio I',
         subtitle: 'A Ameaça Fantasma',
         type: 'Filme',
-        image_url: 'https://s3-alpha-sig.figma.com/img/63ad/549e/710e307adf3dae8f5c62fa912a60110f?Expires=1710720000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=SadIUqZkoj2wOlwNYQ466dsHGG23LVqy6ziJ7J~T2KgNC2GswYCnlCZgKi0Hhtd7i-jFJCPG7AinSKVqJKODFOiOhzrdvYPVpdXEn~xoZN6s7PcXGgydNI7v5ik5DwOWnWRc-XyVJc1tYDeu2LJig5fvBaQ0EKXYDn-D0xaZerzQVXDBbt9fKHAJgkqOb1mJgxFZrK6bvHG0K3UV~xbm3cHq4JHOmB7cF~8n~q0pd-c06n0o7uqNUaBvr4VJMWckkhPnR08oGcH7tzJEwsG62dnE4ip3JQr2VQ4la78LVyQo9IpJnLpNF13iV5gYTaP4ewSoozzyM10bZkpfb1yRKQ__',
+        image_url: 'https://s3-alpha-sig.figma.com/img/63ad/549e/710e307adf3dae8f5c62fa912a60110f?Expires=1713139200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=KsWEsomAMev2luXehGlkm0fGpLPNWnZgKBpzrBOjepfDi-M2QruzWWtJAKv3nqJTgXSj7qL4APJIrT9zbP2c5fY9XBPjhJB40-r819oXOgHe9rABLES3DnQtNplxanzVYkqIIrVNsgTY7rorxsyKOGxFWjjnE~i-XDj47dp5ssnZNpnkrtIwxj3RGrVkk5etVGUOihQjBh~ezmK3bPeT4oHPvk4s0pzxAVMoIf1fSZD2d-dDi0TvWNZ27l5pWEtbPleqiuyieL5Eq2G~7WTvm3v5Qa7sx4vQTzoZzYGnNcqU71i0grMbdoDJ-Uni4XWlK0Baet2PF-~t22AmBq9axA__',
       }} />
       <HomeList title="Filmes" data={FAKE_DATA_MOVIES} />
       <HomeList title="Personagens" data={FAKE_DATA_CHARACTERS} />

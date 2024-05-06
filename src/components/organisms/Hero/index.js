@@ -5,7 +5,7 @@ import { Tag, IconButton, PlayButton } from '~/components/molecules'
 import { colors } from '~/styles/colors'
 
 export const Hero = ({ item, withoutLogo }) => {
-  const { image_url, title, subtitle, type } = item;
+  const { image_url, title, subtitle, type, description } = item;
   return (
     <HeroContainer>
       <HeroImageBackground
@@ -26,6 +26,9 @@ export const Hero = ({ item, withoutLogo }) => {
             <IconButton label={"Saiba mais"} iconName={"information-circle-outline"}/>
           </ButtonsView>
         </HeroGradient>
+        <Text fontFamily="bold" size={14} mt={8}>
+          {description}
+        </Text>
       </HeroImageBackground>
     </HeroContainer>
   )
